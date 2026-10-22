@@ -4,7 +4,7 @@ Initialize a Git repository - git init
 
 Create .gitignore file - touch .gitignore
 
-Add files to .gitignore - nano .gitignore (.DS_Store)
+Add content to .gitignore file - nano .gitignore (.DS_Store)
 
 View content of .gitignore file - cat .gitignore
 
@@ -21,7 +21,7 @@ Undo changes in a file before staging:
 - git restore .gitignore(for example - this will restore the .gitignore to its previous state before its last changes)
 
 Undo changes in a file after staging:
-git restore --staged <file name>
+- git restore --staged <file name>
 
 
 REMOTE REPOSITORY
@@ -30,9 +30,13 @@ Open up github and create a new repository
 
 In the terminal:
 
-git remote add origin <url>
+git remote add origin <ssh>
 
 git remote -v
+
+git add .
+
+git commit -m 'with a meaningful message'
 
 git push -u origin main (-u means upstream)
 
