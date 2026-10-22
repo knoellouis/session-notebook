@@ -22,3 +22,17 @@ Undo changes in a file before staging:
 
 Undo changes in a file after staging:
 git restore --staged <file name>
+
+
+REMOTE REPOSITORY
+
+Open up github and create a new repository
+
+In the terminal:
+
+git remote add origin <url>
+
+git remote -v
+
+git push -u origin main (-u means upstream)
+
