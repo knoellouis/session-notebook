@@ -40,3 +40,33 @@ git commit -m 'with a meaningful message'
 
 git push -u origin main (-u means upstream)
 
+
+GIT BRANCHES
+
+Create a new branch - git switch -c 'feature new bla bla bla' (on this branch you can change your code and it will not directly affect the main/ master branch)
+
+Check status - git status
+
+Add the branch / changes - git add . 
+
+Commit the branch / changes - git commit -m 'meassage'
+
+Go back to the main branch - git switch main
+
+If you want to switch to the previous branch you were on - git switch -
+
+Create a new Repository on Github with the same name as your remote repository
+
+Then connect the remote to the local (make sure you're on the main branch) - git remote add origin <ssh>
+
+Check to see if its connected by running - git remote (you should see origin)
+
+Set main branch - git branch-M main
+
+Push your changes from local to remote - git push -u origin main
+
+Switch to your branch - git switch <branch name>
+
+Check status - git status
+
+Push branch from local to remote - git push origin <branch name>
