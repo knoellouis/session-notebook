@@ -1,4 +1,4 @@
-LOCAL REPOSITORY
+##LOCAL REPOSITORY
 
 Initialize a Git repository - git init
 
@@ -23,8 +23,9 @@ Undo changes in a file before staging:
 Undo changes in a file after staging:
 - git restore --staged <file name>
 
+---
 
-REMOTE REPOSITORY
+##REMOTE REPOSITORY
 
 Open up github and create a new repository
 
@@ -40,8 +41,9 @@ git commit -m 'with a meaningful message'
 
 git push -u origin main (-u means upstream)
 
+---
 
-GIT BRANCHES
+##GIT BRANCHES
 
 Create a new branch - git switch -c 'feature new bla bla bla' (on this branch you can change your code and it will not directly affect the main/ master branch)
 
@@ -77,8 +79,9 @@ List all branches (local and remote) - git branch -a
 
 Delete a branch - git branch -d <branch name>
 
+---
 
-MERGING BRANCHES
+##MERGING BRANCHES
 
 Go to Github and click on Compare and pull request
 
@@ -90,7 +93,9 @@ Click Create Pull Request
 
 A colleage usually confirms the merge request 
 
-PULL CHANGES TO LOCAL 
+---
+
+##PULL CHANGES TO LOCAL 
 
 Go to your terminal and switch to main branch - git switch main
 
