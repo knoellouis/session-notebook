@@ -70,3 +70,31 @@ Switch to your branch - git switch <branch name>
 Check status - git status
 
 Push branch from local to remote - git push origin <branch name>
+
+Get a list of branches - git branch
+
+List all branches (local and remote) - git branch -a
+
+Delete a branch - git branch -d <branch name>
+
+
+MERGING BRANCHES
+
+Go to Github and click on Compare and pull request
+
+You can give it a title and description (give a good one)
+
+Review changes
+
+Click Create Pull Request
+
+A colleage usually confirms the merge request 
+
+PULL CHANGES TO LOCAL 
+
+Go to your terminal and switch to main branch - git switch main
+
+Pull the changes - git pull
+
+ℹ️ Best practice is to delete the branch once it has been merged and pulled so that it keeps the git and Github environment clean
+
